@@ -83,7 +83,7 @@ public:
         
         bool operator!=( const iterator& rhs ) const {
             // Replace the line(s) below with your code.
-            return !(this==rhs);
+            return !(*this==rhs);
         }
         
     };
